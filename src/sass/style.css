@@ -1,0 +1,143 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+nav{
+  background: transparent;
+}
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: rgb(40, 0, 152);
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+.product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.99);
+    border-radius: 3px;
+}
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #8d1717;
+}
+.product-device-2::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgb(16, 2, 72);
+    border-radius: 5px;
+}
+.d-md-block {
+    display: block!important;
+}
+.iphonetext{
+    font-family: Bradley Hand, cursive;
+}
+
+
+
+
+
+html, body{
+  height: 100%;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #030321;
+   
+}
+
+.container .iphone{
+   position: relative;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+svg {
+    display: block;
+    font: 14.5em "Arial";
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 7px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+  stroke: #4D163D;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+  stroke: #840037;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+  stroke: #BD0034;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+  stroke: #BD0034;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+  stroke: #FDB731;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+}
+.navtxt:hover{
+    background-color: #8d1717;
+ }
+ .blogsclass{
+  padding: 40px;
+  
+ }
+ .card-text{
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,0.9671218829328606) 36%, rgba(0,212,255,1) 100%);
+  font-family: monospace;;
+ }
+ 
+ table th{
+  color:#ffffff
+ }
+ table td{
+  color:#ffffff
+ }
+ .clr{
+  color:#ffffff
+ }
+ 
+ 
+ 
